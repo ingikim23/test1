@@ -26,14 +26,20 @@ public final class R {
         public static final int dataItem01=0x7f070005;
         public static final int dataItem02=0x7f070006;
         public static final int dataItem03=0x7f070007;
+        public static final int dialogAddCancel=0x7f07000c;
+        public static final int dialogAddOK=0x7f07000b;
+        public static final int dialogSubject=0x7f070009;
+        public static final int dialogTime=0x7f070008;
+        public static final int dialogTodo=0x7f07000a;
         public static final int getMemo=0x7f070002;
         public static final int iconItem=0x7f070004;
-        public static final int menu_settings=0x7f070008;
+        public static final int menu_settings=0x7f07000d;
         public static final int todoList=0x7f070000;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
         public static final int listitem=0x7f030001;
+        public static final int memo_dialog=0x7f030002;
     }
     public static final class menu {
         public static final int activity_main=0x7f060000;

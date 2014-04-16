@@ -1,0 +1,69 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:padding="5dp" >
+
+    <TableRow android:layout_marginLeft="10dp" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="시간 : " />
+        <EditText
+            android:id="@+id/dialogTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true" />
+    </TableRow>
+
+    <TableRow android:layout_marginLeft="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="과목명 : " />
+        <EditText
+            android:id="@+id/dialogSubject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="과목이름을 입력하세요"
+            android:singleLine="true" />
+    </TableRow>
+
+    <TableRow android:layout_marginLeft="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="할일 : " />
+        <EditText
+            android:id="@+id/dialogTodo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="해야할 일을 입력하세요"
+            android:singleLine="true" />
+    </TableRow>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+        
+        <Button
+            android:id="@+id/dialogAddOK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="확인" />
+        <Button
+            android:id="@+id/dialogAddCancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="취소" />
+    </LinearLayout>
+
+</TableLayout>
